@@ -1,15 +1,15 @@
 # Git
 Códigos
 
-git init
+**git init**
 
-git status
+**git status**
 
-git add .    
+**git add .**
 
-git commit -m "mensagem"
+**git commit -m "mensagem"**
 
-git push
+**git push**
 
 git reset       //consegue remover do stage, no caso do add .
 
