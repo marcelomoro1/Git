@@ -9,4 +9,4 @@ git add .
 
 git commit -m "mensagem"
 
-git reset
+git reset (consegue remover do add . )
