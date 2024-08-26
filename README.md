@@ -15,6 +15,8 @@ git reset       //consegue remover do stage, no caso do add .
 git clean -df  //remove as modificacoes que não foram pro stage
 git checkout -- .  //quando removido as modificacoes garante que esteja no ultimo commit realizado
 
+git log --oneline //verifica os commits que o projeto tem
+
 **ERRO DE EDITOR VIM //aquele editor azul quando tu esquece a mensagem do commit**
 - Digite "i" para escrever a mensagem do commit esquecido, após escrever a mensagem aperte "ESC" e digite ":wq" e aperte "ENTER" para salvar
 
