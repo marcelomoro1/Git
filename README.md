@@ -10,6 +10,8 @@ git commit -m "mensagem"
 
 git push
 
+git push -u origin main
+
 git reset       //consegue remover do stage, no caso do add .
 
 git clean -df  //remove as modificacoes que não foram pro stage
