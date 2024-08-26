@@ -38,4 +38,8 @@ git log --oneline //verifica os commits que o projeto tem
 **SOBREESCREVENDO O HISTORICO DO GITHUB PELO LOCAL**
 - git push -f
 
+**CRIANDO UM REPOSITORIO CÓPIA DE OUTRO REPOSITORIO**
+- digite "git remove -v" //para verificar para qual repositorio o git esta apontando, no caso precisa estar o repositorio que você quer que seja copiado
+- digite "git remote -seturl origin git@github.com:marcelomoro1/repositorionovo.git"
+
 
