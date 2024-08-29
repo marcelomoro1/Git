@@ -16,7 +16,7 @@ git commit -m "mensagem"
 
 git push
 
-git push -u origin main
+git push -u origin main //usar esse quando for a primeira vez
 
 git branch -a //verifica todas branch existentes
 
