@@ -16,6 +16,12 @@ git push
 
 git push -u origin main
 
+git branch -a //verifica todas branch existentes
+
+git checkout NomeDaBranch //entra na branch especifica 
+
+git branch -m NomeDaBranchAtual NomeDaBranchNova //troca o nome da branch que você está no momento para outro
+
 git reset       //consegue remover do stage, no caso do add .
 
 git clean -df  //remove as modificacoes que não foram pro stage
