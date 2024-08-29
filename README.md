@@ -1,5 +1,7 @@
 # Git Códigos
 
+git config --list //verique se o user.name e o user.email estão corretamente configurados antes de começar, caso não esteja utilize (git config --global user.name "Marcelo Moro") e (git config --global user.email "marcelo....@hotmailcom") o email precisa ser o do git
+
 git init
 
 git remote add origin URLdoREPOSITORIOhttps //Associa o repositorio escolhido ao git 
