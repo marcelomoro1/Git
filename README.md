@@ -2,6 +2,10 @@
 
 git init
 
+git remote add origin URLdoREPOSITORIOhttps //Associa o repositorio escolhido ao git 
+
+git pull origin master
+
 git status
 
 git add .
