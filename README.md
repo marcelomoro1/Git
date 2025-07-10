@@ -55,3 +55,25 @@ git log --oneline //verifica os commits que o projeto tem
 - digite "git remote -seturl origin git@github.com:marcelomoro1/repositorionovo.git"
 
 
+**APAGANDO O REP ANTIGO E CRIANDO UM NOVO POR CIMA E MANTENDO O HISTORICO**
+- # Clone o repositório antigo
+git clone https://github.com/seu-usuario/nome-do-repo.git
+
+cd nome-do-repo
+
+# Apague tudo (exceto a pasta .git que guarda o histórico)
+git rm -r *
+# ou, se estiver no Windows:
+del * /s /q
+
+# Copie os arquivos do novo projeto para essa pasta
+# (pode fazer isso manualmente ou via script)
+
+# Adicione tudo e faça commit
+git add .
+git commit -m "Atualizando para nova versão do projeto"
+
+# Envie ao repositório remoto
+git push origin main
+
+
