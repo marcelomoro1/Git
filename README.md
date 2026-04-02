@@ -14,6 +14,8 @@ git add .
 
 git commit -m "mensagem"
 
+git branch -M main
+
 git push
 
 git push -u origin main //usar esse quando for a primeira vez
