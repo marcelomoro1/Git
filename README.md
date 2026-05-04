@@ -6,6 +6,10 @@ git init
 
 git remote add origin URLdoREPOSITORIOhttps //Associa o repositorio escolhido ao git 
 
+git remote remove origin
+
+git branch -M main
+
 git pull origin master
 
 git status
@@ -13,8 +17,6 @@ git status
 git add .
 
 git commit -m "mensagem"
-
-git branch -M main
 
 git push
 
